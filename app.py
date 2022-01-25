@@ -1,0 +1,15 @@
+print ("Melvin Odalson")
+print ('*' * 10)
+# Getting input from a user and printing out the user's entry
+name = input("What is your name? ")
+mel = len(name)
+mel1 = str(mel)
+colour = input("What is your favorite colour? ")
+print("Hello " + name +"!" + " The number of characters in your name is " + mel1)
+print("Thank you for attending Angela's classes. My favorite colour is also " + colour)
+
+# Exercise from Angela Yu's lesson (using the PRINT function)
+print(name + " likes " + colour)
+print("Day 1 - Python Print Function")
+print("The function is declared like this: ")
+print("print('what to print')")
